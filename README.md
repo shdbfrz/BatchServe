@@ -1,7 +1,7 @@
 # BatchServe — Dynamic Batching Inference Server
 
 An asynchronous inference gateway that opportunistically groups concurrent
-prediction requests into micro-batches before running them through the model,
+prediction requests into micro-batches before running them through the model, 
 trading a few milliseconds of queueing latency for a large throughput gain.
 Built with FastAPI + asyncio, instrumented with Prometheus, containerized 
 with Docker, and provisioned with a Grafana dashboard via Compose.
