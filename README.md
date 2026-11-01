@@ -1,4 +1,4 @@
-# BatchServe — Dynamic Batching Inference Server
+# BatchServe — Dynamic Batching Inference Server                                                 
 
 An asynchronous inference gateway that opportunistically groups concurrent
 prediction requests into micro-batches before running them through the model, 
